@@ -1675,23 +1675,6 @@ button {
     }
 }
 
-/* Reposition profile photo in About Me */
-/* About Me profile photo */
-#about > .image.main {
-    width: 100%;
-    overflow: hidden;
-    height: 380px;
-}
-
-#about > .image.main img {
-    display: block;
-    width: 130% !important;
-    max-width: none !important;
-    height: 380px;
-    object-fit: cover;
-    object-position: center;
-    margin-left: 10% !important;
-}
 
 /* Education list */
 #about ul {
@@ -1757,4 +1740,13 @@ button {
     display: inline-block;
     font-size: 0.85em;
     opacity: 0.7;
+}
+
+
+/* Homepage profile photo positioning */
+.homepage-profile {
+    width: 280px !important;
+    height: 280px !important;
+    object-fit: cover;
+    object-position: 75% center;
 }
