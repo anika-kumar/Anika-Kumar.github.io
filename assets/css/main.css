@@ -1757,3 +1757,13 @@ button {
     object-fit: cover;
     object-position: 25% center;
 }
+
+.homepage-profile {
+    display: block;
+    width: 280px !important;
+    height: 280px !important;
+    object-fit: cover !important;
+    object-position: 25% center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
