@@ -1682,3 +1682,32 @@ button {
     object-fit: cover;
     object-position: center center;
 }
+
+/* Education list */
+#about ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 1em 0 1.5em;
+}
+
+#about ul li {
+    margin-bottom: 1.2em;
+    padding-left: 1em;
+    border-left: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+#about ul li strong {
+    display: inline-block;
+    margin-bottom: 0.2em;
+}
+
+#about .education-date {
+    opacity: 0.7;
+    font-size: 0.9em;
+}
+
+/* Consistent spacing between sections */
+#about h3 {
+    margin-top: 1.8em;
+    margin-bottom: 0.8em;
+}
