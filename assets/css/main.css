@@ -1650,30 +1650,27 @@ button {
 		opacity: 0;
 	}
 
-
 /* Hobby photo grid */
 .hobby-grid {
-    display: grid !important;
+    display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px;
     width: 100%;
     max-width: 500px;
-    margin: 1.5em auto;
+    margin: 1.5rem auto;
 }
 
 .hobby-grid img {
     display: block;
-    width: 100% !important;
-    height: 160px !important;
-    max-width: 100% !important;
+    width: 100%;
+    height: 160px;
     object-fit: cover;
     border-radius: 8px;
-    margin: 0 !important;
 }
 
-/* Mobile layout */
+/* Smaller photos on mobile */
 @media screen and (max-width: 480px) {
     .hobby-grid img {
-        height: 120px !important;
+        height: 120px;
     }
 }
