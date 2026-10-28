@@ -1676,17 +1676,21 @@ button {
 }
 
 /* Reposition profile photo in About Me */
+/* About Me profile photo */
 #about > .image.main {
+    width: 100%;
     overflow: hidden;
+    height: 380px;
 }
 
 #about > .image.main img {
-    width: 100%;
+    display: block;
+    width: 130% !important;
+    max-width: none !important;
     height: 380px;
     object-fit: cover;
-    object-position: left center;
-    transform: scale(1.15) translateX(5%);
-    transform-origin: left center;
+    object-position: center;
+    margin-left: 10% !important;
 }
 
 /* Education list */
