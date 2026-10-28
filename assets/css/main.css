@@ -1711,3 +1711,40 @@ button {
     margin-top: 1.8em;
     margin-bottom: 0.8em;
 }
+
+
+
+
+/* Community section styling */
+#community h3 {
+    margin-top: 1.8em;
+    margin-bottom: 0.8em;
+}
+
+#community h4 {
+    margin-top: 1.2em;
+    margin-bottom: 0.4em;
+    font-size: 1em;
+}
+
+#community ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 1em 0 1.5em;
+}
+
+#community ul li {
+    margin-bottom: 1em;
+    padding-left: 1em;
+    border-left: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+#community ul li strong {
+    display: block;
+}
+
+#community .community-date {
+    display: inline-block;
+    font-size: 0.85em;
+    opacity: 0.7;
+}
